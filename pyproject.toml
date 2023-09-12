@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dataframe"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Kolesnik <118283668+KolesnikNV@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.4.1"
+findspark = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
